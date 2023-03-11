@@ -1,0 +1,23 @@
+{
+    "Forms": {
+        "mobile": {
+            "frmTransactions": {
+                "Controller": "TransactionModule/frmTransactionsController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "TransactionModule/frmTransactions",
+                "friendlyName": "frmTransactions"
+            }
+        }
+    },
+    "ModuleName": "TransactionModule",
+    "ModuleType": "UIModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "TransactionModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "TransactionModule/PresentationControllers/Extension"
+            ]
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_j2e444e02889448e9136b71b9edac4d7": {
+        "id": "AS_AppEvents_j2e444e02889448e9136b71b9edac4d7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e873cb8d8a6f41118f600116e9f3f648",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.lang.setUncaughtExceptionHandler(GlobalExceptionHandler.exceptionHandler);\ntry {\n  require(['ApplicationManager','ServiceResponseHandler'], function (ApplicationManager, ServiceResponseHandler) {\n    kony.print('ApplicationManager is loaded');\n    applicationManager = ApplicationManager.getApplicationManager();\n    serviceResponseHandler = new ServiceResponseHandler();\n  });\n  //var ApplicationManager = require('ApplicationManager');\n  //applicationManager = ApplicationManager.getApplicationManager();\n} catch (err) {\n  throw GlobalExceptionHandler.addMessageAndActionForException(err,\n                                                               \"kony.error.App_Initialisation_Failed\", GlobalExceptionHandler.ActionConstants.BLOCK,\n                                                               arguments.callee.name);\n}",
+            "parentId": null
+        }]
+    }
+}

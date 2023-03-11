@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_j7599a0f5af5421393ad3bd9b4e714ed": {
+        "id": "AS_AppEvents_j7599a0f5af5421393ad3bd9b4e714ed",
+        "type": "ACTION_SEQUENCE",
+        "name": "preappInit",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b3ba820270d545c7a264246bdb562809",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.lang.setUncaughtExceptionHandler(GlobalExceptionHandler.exceptionHandler);\ntry{\n  var ApplicationManager = require(['ApplicationManager']);\n  applicationManager = ApplicationManager.getApplicationManager();\n}catch(err) {\n  throw GlobalExceptionHandler.addMessageAndActionForException(err,\n                                                               \"kony.error.App_Initialisation_Failed\", GlobalExceptionHandler.ActionConstants.BLOCK,\n                                                               arguments.callee.name);\n}",
+            "parentId": null
+        }]
+    }
+}

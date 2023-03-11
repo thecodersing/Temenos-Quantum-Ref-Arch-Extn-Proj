@@ -1,0 +1,30 @@
+{
+    "AS_Label_b1ba98e4dd3d4baaaebea55508c59e6c": {
+        "id": "AS_Label_b1ba98e4dd3d4baaaebea55508c59e6c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "add81602689c47a5960528d65e69db1e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d75450f204b74837b5ffa41a1ce0d8c7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.presenter.shiftContextToModuleTransfer();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

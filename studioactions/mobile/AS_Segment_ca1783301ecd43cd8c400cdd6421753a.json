@@ -1,0 +1,30 @@
+{
+    "AS_Segment_ca1783301ecd43cd8c400cdd6421753a": {
+        "id": "AS_Segment_ca1783301ecd43cd8c400cdd6421753a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "add81602689c47a5960528d65e69db1e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g801ac3d5bdc4c6cb18b394664ea89ac",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.presenter.shiftContextToTransactionModule();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

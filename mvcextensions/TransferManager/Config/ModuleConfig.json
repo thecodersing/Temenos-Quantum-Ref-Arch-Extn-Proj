@@ -1,0 +1,9 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "TransferManager/BusinessControllers/BusinessController",
+        "BusinessExtensions": []
+    },
+    "Forms": {},
+    "ModuleName": "TransferManager",
+    "ModuleType": "Manager"
+}

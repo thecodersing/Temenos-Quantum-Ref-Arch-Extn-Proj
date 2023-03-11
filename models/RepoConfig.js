@@ -1,0 +1,1 @@
+{"table":"account","db":"TerranBankServ","verbs":"true"},{"table":"transaction","db":"TerranBankServ","verbs":"true"}

@@ -1,0 +1,49 @@
+{
+  "operationConfig" : {
+    "name" : "freedb_johnchangidb_transactions_create4925",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"amount\" outputpath=\"amount\"/>\n        <set-param inputpath=\"fromaccountid\" outputpath=\"fromaccountid\"/>\n        <set-param inputpath=\"notes\" outputpath=\"notes\"/>\n        <set-param inputpath=\"toaccountid\" outputpath=\"toaccountid\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"transaction\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"freedbserv (1.0).freedb_johnchangidb_transactions_create\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:transaction:fromaccountid:\",\"to\":\"target:fromaccountid:\",\"fromPort\":\"source:transaction:fromaccountid:\",\"toPort\":\"target:fromaccountid:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:transaction:toaccountid:\",\"to\":\"target:toaccountid:\",\"fromPort\":\"source:transaction:toaccountid:\",\"toPort\":\"target:toaccountid:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:transaction:amount:\",\"to\":\"target:amount:\",\"fromPort\":\"source:transaction:amount:\",\"toPort\":\"target:amount:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:transaction:notes:\",\"to\":\"target:notes:\",\"fromPort\":\"source:transaction:notes:\",\"toPort\":\"target:notes:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"transaction\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"freedbserv (1.0).freedb_johnchangidb_transactions_create\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "freedbserv",
+      "serviceVersion" : "1.0",
+      "operationName" : "freedb_johnchangidb_transactions_create"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "transaction",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"amount\" outputpath=\"amount\"/>\n        <set-param inputpath=\"fromaccountid\" outputpath=\"fromaccountid\"/>\n        <set-param inputpath=\"notes\" outputpath=\"notes\"/>\n        <set-param inputpath=\"toaccountid\" outputpath=\"toaccountid\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"transaction\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"freedbserv (1.0).freedb_johnchangidb_transactions_create\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:transaction:fromaccountid:\",\"to\":\"target:fromaccountid:\",\"fromPort\":\"source:transaction:fromaccountid:\",\"toPort\":\"target:fromaccountid:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:transaction:toaccountid:\",\"to\":\"target:toaccountid:\",\"fromPort\":\"source:transaction:toaccountid:\",\"toPort\":\"target:toaccountid:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:transaction:amount:\",\"to\":\"target:amount:\",\"fromPort\":\"source:transaction:amount:\",\"toPort\":\"target:amount:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:transaction:notes:\",\"to\":\"target:notes:\",\"fromPort\":\"source:transaction:notes:\",\"toPort\":\"target:notes:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"transaction\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"freedbserv (1.0).freedb_johnchangidb_transactions_create\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "etag" : "60ad63cb-d2e6-4f6a-868b-308220cd617c",
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

@@ -1,0 +1,16 @@
+{
+    "TerranBankServ_account": {
+        "servicename": "TerranBankServ",
+        "serviceid": "eea01fe0-2251-46d4-b725-bf62c0b4295f",
+        "type": "objectsvcs",
+        "objectname": "account",
+        "objectid": "12569"
+    },
+    "TerranBankServ_transaction": {
+        "servicename": "TerranBankServ",
+        "serviceid": "eea01fe0-2251-46d4-b725-bf62c0b4295f",
+        "type": "objectsvcs",
+        "objectname": "transaction",
+        "objectid": "12570"
+    }
+}

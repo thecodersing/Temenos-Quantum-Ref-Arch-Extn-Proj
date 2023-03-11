@@ -1,0 +1,24 @@
+{
+    "services": [
+        {
+            "serviceId": "eea01fe0-2251-46d4-b725-bf62c0b4295f",
+            "serviceName": "TerranBankServ",
+            "serviceETag": "1fab2eb6-744f-4e33-af7b-801942f39513",
+            "objects": [
+                {
+                    "objectId": "12569",
+                    "objectName": "account",
+                    "objectETag": "cab0d9f7-0451-4edf-a48c-9d98033321be"
+                },
+                {
+                    "objectId": "12570",
+                    "objectName": "transaction",
+                    "objectETag": "a29c7ddc-aef1-47da-bf86-591b53f7b81b"
+                }
+            ]
+        }
+    ],
+    "appInfo": {
+        "serviceDocEtag": "00000186CB09FD78"
+    }
+}

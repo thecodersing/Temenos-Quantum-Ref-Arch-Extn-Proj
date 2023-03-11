@@ -1,0 +1,29 @@
+{
+    "Forms": {
+        "mobile": {
+            "frmDummy": {
+                "Controller": "AccountsModule/frmDummyController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AccountsModule/frmDummy"
+            },
+            "frmHome": {
+                "Controller": "AccountsModule/frmHomeController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AccountsModule/frmHome",
+                "friendlyName": "frmHome"
+            }
+        }
+    },
+    "ModuleName": "AccountsModule",
+    "ModuleType": "UIModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "AccountsModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "AccountsModule/PresentationControllers/Extension"
+            ]
+        }
+    }
+}

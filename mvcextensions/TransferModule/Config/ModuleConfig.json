@@ -1,0 +1,23 @@
+{
+    "Forms": {
+        "mobile": {
+            "frmTransfer": {
+                "Controller": "TransferModule/frmTransferController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "TransferModule/frmTransfer",
+                "friendlyName": "frmTransfer"
+            }
+        }
+    },
+    "ModuleName": "TransferModule",
+    "ModuleType": "UIModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "TransferModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+                "TransferModule/PresentationControllers/Extension"
+            ]
+        }
+    }
+}

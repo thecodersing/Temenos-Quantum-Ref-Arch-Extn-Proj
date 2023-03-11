@@ -1,0 +1,11 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "TransactionManager/BusinessControllers/BusinessController",
+        "BusinessExtensions": [
+            "TransactionManager/BusinessControllers/Extension"
+        ]
+    },
+    "Forms": {},
+    "ModuleName": "TransactionManager",
+    "ModuleType": "Manager"
+}
